@@ -9,4 +9,4 @@ function getRandomNumber(min, max) {
 setInterval(function () {
     var randomValue = getRandomNumber(10000, 50000); // 生成10,000到50,000之间的随机数
     num.textContent = randomValue;
-}, 1000); // 每2秒更新一次随机数值
+}, 2000); // 每2秒更新一次随机数值
