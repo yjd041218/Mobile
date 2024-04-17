@@ -1,0 +1,87 @@
+body {
+    font-size: 16px;
+    color: #4b4b4b;
+}
+
+.my {
+    width: 100vw;
+    height: 20vh;
+    background: linear-gradient(to right, #42d0ff, #0066ff);
+
+}
+
+.bg {
+    background-color: transparent;
+}
+
+.my h1 {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 100;
+    color: #fff
+}
+
+.my .text {
+    display: flex;
+}
+
+.my .text p {
+    color: white;
+    margin-left: 0.5rem;
+}
+
+.my-list {
+    background-color: #ffffff;
+    display: flex;
+}
+
+.my-list li {
+    width: 100vw;
+    padding: 1.5rem;
+    border-bottom: 1px solid #ccc;
+}
+
+.my-list i {
+    color: #2facfe;
+    font-size: 1.7rem;
+    margin-right: 0.3rem;
+}
+
+.my-list .item {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+}
+
+.footer i {
+    font-size: 2rem;
+}
+
+.footer .footer-content {
+    width: 100%;
+    padding: 0 10vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-item:hover {
+    color: #788ef8;
+}
+
+.footer .footer-content .footer-item p {
+    margin-top: 5px;
+
+}

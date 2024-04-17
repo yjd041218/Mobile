@@ -1,0 +1,139 @@
+body {
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #676767;
+}
+
+.active {
+    color: #788ef8;
+}
+
+.container {
+    width: 100vw;
+    height: 47vh;
+    background-color: rgb(255, 255, 255);
+}
+
+.container .earnings {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 35vh;
+    color: white;
+    background: linear-gradient(to right, #42d0ff, #0066ff);
+}
+
+.container .earnings>.text {
+    padding: 1rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container .earnings h4 {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.container .earnings span {
+    font-size: 2rem;
+}
+
+.container .earnings .defeat {
+    display: flex;
+    align-items: center;
+}
+
+.container .yesterday {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    width: 100vw;
+    text-align: center;
+    background: linear-gradient(to right, rgba(0, 65, 187, 0.4), rgba(72, 134, 227, 0.5));
+    color: #e6e6e6;
+    font-size: 0.8rem;
+}
+
+.container .earnings .defeat i {
+    margin-right: 1.1rem;
+}
+
+.container .tips {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    border-top: 1px solid #ccc;
+    margin-top: 1.9rem;
+    padding: 1.1rem;
+}
+
+.container .tips .content {
+    display: flex;
+    align-items: center;
+}
+
+.container .tips .content i,
+.storeup .content .t i {
+    color: rgb(203, 203, 13);
+    font-size: 1.4rem;
+    margin-right: 0.6rem;
+}
+
+.storeup .content {
+    border-top: 1px solid #ccc;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.9rem;
+    padding: 1.1rem;
+}
+
+.storeup .content .t {
+    display: flex;
+    align-items: center;
+}
+
+.storeup .content .t .item p:nth-child(2) {
+    font-size: 0.6rem;
+    color: #ccc;
+    margin-top: 0.5rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 10vh;
+    background-color: white;
+
+}
+
+.footer .footer-content {
+    width: 100%;
+    padding: 0 10vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .footer-item i {
+    font-size: 2rem;
+}
+
+.footer .footer-item:hover {
+    color: #788ef8;
+}
+
+.footer .footer-content .footer-item p {
+    margin-top: 5px;
+
+}

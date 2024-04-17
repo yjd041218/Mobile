@@ -2,6 +2,7 @@ body {
     box-sizing: border-box;
     min-width: 375px;
     overflow-x: hidden;
+    color: #5c5c5c;
 }
 
 .active {
@@ -14,7 +15,7 @@ body {
     z-index: 100;
     width: 100vw;
     height: 6vh;
-    background: linear-gradient(to right, #96dcf4, #00BFFF);
+    background: linear-gradient(to right, #86dffd, #106fff);
     text-align: center;
     color: #fff
 }
@@ -107,7 +108,9 @@ body {
 .performance .perf-content .perf-item p:nth-child(2) {
     font-size: 2em;
     font-weight: 600;
-    text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+    /* text-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5); */
+    text-shadow:
+        0px 2px 8px #363636;
     letter-spacing: 0.03em
 }
 
@@ -175,7 +178,7 @@ body {
     width: 1px;
     height: 60%;
     /* border: 1px solid #2e2e2e; */
-    background-color: #383838;
+    background-color: #c5c5c5;
 }
 
 .news {
@@ -215,7 +218,7 @@ body {
     background-size: cover;
 } */
 .ui-list-info p {
-    font-size: 12px;
+    /* font-size: 1.1em; */
 }
 
 .news-btn {
@@ -252,6 +255,10 @@ body {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+}
+
+.footer .footer-item:hover {
+    color: #788ef8;
 }
 
 .footer .footer-content .footer-item p {
